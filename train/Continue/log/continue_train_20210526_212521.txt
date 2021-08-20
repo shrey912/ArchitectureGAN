@@ -1,0 +1,24 @@
+train_data_root: ../pickle/train_dataset
+val_data_root: ../pickle/val_dataset
+save_log_root: log
+result_file: result_continue.csv
+module_name: continue
+model_name: resnet34_fc2
+load_model_path: None
+load_connect_path: None
+mask_size: 9
+multi_GPU: False
+batch_size: 16
+num_workers: 2
+print_freq: 300
+max_epoch: 300
+current_epoch: 0
+save_freq: 50
+val_freq: 5
+update_lr: True
+lr_decay_freq: 30
+lr_base: 0.0001
+weight_decay: 0.0001
+parse: <bound method ContinueConfig.parse of <config_continue.ContinueConfig object at 0x000002866772BFD0>>
+Training start time: May 26 2021 21:25:21
+Building model...
